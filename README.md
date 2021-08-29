@@ -6,7 +6,6 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/alessandrogentil/]
 
 
 
@@ -31,30 +30,6 @@
 
 
 <!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
-  </ol>
-</details>
 
 
 
@@ -74,41 +49,6 @@ An app to track daily water intake made using [Expo](https://expo.io/), [React N
 * [React Native Paper](https://callstack.github.io/react-native-paper/)
 * [react-native-circular-progress](https://github.com/bartgryszko/react-native-circular-progress)
 * [react-native-calendars](https://github.com/wix/react-native-calendars)
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-To get a local copy up and running follow these simple steps.
-
-### Prerequisites
-
-You need these on your computer before you start
-* npm
-
-Install npm by following these instructions: [Get npm](https://www.npmjs.com/get-npm)
-
-* Expo CLI
-```sh
-npm install --global expo-cli
-```
-
-### Installation
-
-1. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-2. Install NPM packages
-   ```sh
-   npm install
-   ```
-3. Start Expo
-   ```sh
-   expo start
-   ```
-
-
 
 <!-- USAGE EXAMPLES -->
 ## Usage
