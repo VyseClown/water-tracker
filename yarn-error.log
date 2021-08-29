@@ -1,0 +1,67 @@
+Arguments: 
+  /Users/alessandrogentil/.nvm/versions/node/v16.2.0/bin/node /opt/homebrew/Cellar/yarn/1.22.10/libexec/bin/yarn.js add react-native-google-singin
+
+PATH: 
+  /Users/alessandrogentil/.zinit/polaris/bin:/Users/alessandrogentil/.nvm/versions/node/v16.2.0/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  16.2.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.npmjs.org/react-native-google-singin: Not found
+      at Request.params.callback [as _callback] (/opt/homebrew/Cellar/yarn/1.22.10/libexec/lib/cli.js:66988:18)
+      at Request.self.callback (/opt/homebrew/Cellar/yarn/1.22.10/libexec/lib/cli.js:140749:22)
+      at Request.emit (node:events:365:28)
+      at Request.<anonymous> (/opt/homebrew/Cellar/yarn/1.22.10/libexec/lib/cli.js:141721:10)
+      at Request.emit (node:events:365:28)
+      at IncomingMessage.<anonymous> (/opt/homebrew/Cellar/yarn/1.22.10/libexec/lib/cli.js:141643:12)
+      at Object.onceWrapper (node:events:471:28)
+      at IncomingMessage.emit (node:events:377:35)
+      at endReadableNT (node:internal/streams/readable:1312:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "@react-native-community/art": "^1.2.0",
+      "expo": "~39.0.2",
+      "expo-status-bar": "~1.0.2",
+      "firebase": "7.9.0",
+      "luxon": "^1.25.0",
+      "react": "16.13.1",
+      "react-dom": "16.13.1",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-39.0.4.tar.gz",
+      "react-native-calendars": "^1.826.0",
+      "react-native-chart-kit": "^6.8.1",
+      "react-native-circular-progress": "^1.3.6",
+      "react-native-paper": "^4.4.1",
+      "react-native-svg": "12.1.0",
+      "react-native-web": "~0.13.12",
+      "react-navigation-material-bottom-tabs": "^2.3.3"
+    },
+    "devDependencies": {
+      "@babel/core": "~7.9.0",
+      "@react-navigation/native": "^5.8.10"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
